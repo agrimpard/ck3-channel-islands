@@ -1,5 +1,7 @@
 # Channel Islands Continued
 
+![Channel Islands Continued thumbnail](thumbnail.png)
+
 A Crusader Kings III mod that adds the Channel Islands — Jersey, Guernsey, Alderney and Sark — as a playable county, de jure part of the Duchy of Normandy.
 
 This is an unofficial continuation ("fork") of the original [Channel Islands](https://steamcommunity.com/sharedfiles/filedetails/?id=2222503799) mod by **Indyclone77**. The original mod's files were tied to CK3 1.9 and no longer worked on current game versions; this fork rebuilds the county against up-to-date vanilla files and expands it.
