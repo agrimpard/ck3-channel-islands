@@ -1,0 +1,15 @@
+This mod adds the Channel Islands of Jersey, Guernsey, Alderney and Sark to Crusader Kings III.
+
+The Channel Islands are a new county featuring the baronies of Saint Martin (Jersey), Saint Peter Port (Guernsey), Alderney and Sark. They are de Jure part of the Duchy of Normandy. The name of the county and baronies change to their French or Norman versions under French or Norman rule. Historically, the islands remain tied to the English Crown after 1204, when continental Normandy was annexed by the Kingdom of France.
+
+This is an unofficial continuation ("fork") of the original Channel Islands mod by Indyclone77, updated to remain compatible with current versions of Crusader Kings III.
+
+Source code (open source): https://github.com/agrimpard/ck3-channel-islands
+
+=== Changelog ===
+
+v1.0
+- Full rebuild against current-version vanilla files (landed titles, province history, title history, map definition, default.map, province terrain, map object locators).
+- Added French localization (the original mod only shipped English strings).
+- Added Alderney and Sark as two new baronies of the Channel Islands county.
+- Rebuilt the county's title history: a realistic line of holders following the counts of Mortain/Avranches from 1056, and a historically accurate break in 1204 where the islands stay loyal to King John and pass to English suzerainty instead of following continental Normandy into the Kingdom of France.

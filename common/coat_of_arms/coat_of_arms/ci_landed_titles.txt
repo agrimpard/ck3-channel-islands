@@ -1,0 +1,22 @@
+@smCastleX = 0.27
+@smCastleY = 0.23
+@smLysX = 0.23
+@smLysY = 0.26
+@smCross = 0.22
+
+c_channel_islands = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_bend_thin.dds"
+		color1 = "red"
+		color2 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_bend_thin.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { rotation = 90 }
+	}
+}

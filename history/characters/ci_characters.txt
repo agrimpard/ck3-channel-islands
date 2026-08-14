@@ -1,0 +1,13 @@
+9000001 = {
+	name = "Anquetil"
+	dynasty = 9000001
+	religion = "catholic"
+	culture = "norman"
+
+	830.1.1 = {
+		birth = "830.1.1"
+	}
+	900.1.1 = {
+		death = "900.1.1"
+	}
+}
