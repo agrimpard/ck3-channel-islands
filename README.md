@@ -13,12 +13,12 @@ This is an unofficial continuation ("fork") of the original [Channel Islands](ht
 
 ## What's in the county
 
-- **Saint Martin** (Jersey)
-- **Saint Peter Port** (Guernsey)
+- **Jersey** (barony of Saint Martin)
+- **Guernsey** (barony of Saint Peter Port)
 - **Alderney**
 - **Sark**
 
-County and barony names switch between their French and Norman/Anglo-Norman forms depending on whether the ruling culture is French or Norman.
+All four islands keep their names regardless of who rules them. The county itself still switches to its French/Norman cultural name under French or Norman rule. Each barony has its own coat of arms based on its real historical/current arms.
 
 ## Historical setup
 
@@ -27,6 +27,10 @@ County and barony names switch between their French and Norman/Anglo-Norman form
 - **867 Viking Age bookmark**: a dedicated, fictional-but-plausible local lord ("Anquetil") holds the county from 860 onward, owning nothing but the islands themselves. This makes it possible to start the 867 bookmark playing *only* the Channel Islands, as a vassal of whoever holds the Duchy of Normandy at that time, instead of inheriting a landholder's five other mainland counties.
 
 ## Changelog
+
+### v1.2
+- Jersey and Guernsey now always display their island names instead of their main town's name (Saint Martin / Saint Peter Port), matching Alderney and Sark, regardless of who rules them (the previous French/Norman cultural names for these two baronies have been removed).
+- Added individual coats of arms for all four baronies, based on their real historical/current arms: Jersey and Sark (three and two gold leopards on red, respectively), Guernsey (three gold leopards on red with a holly sprig), and Alderney (a gold rampant lion on red).
 
 ### v1.1
 - Fixed all four islands' armies, buildings and coat of arms rendering at the wrong location on the map (near Pamplona, Spain) instead of the Channel Islands themselves. Five of the seven map object locator files (building, combat, player stack, siege, special building locators) had incorrect 3D coordinates left over from an early, unvalidated pass; they, along with the newly added stack and other stack locators, now all use positions confirmed correct by the game engine.

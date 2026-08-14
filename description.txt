@@ -1,12 +1,16 @@
 This mod adds the Channel Islands of Jersey, Guernsey, Alderney and Sark to Crusader Kings III.
 
-The Channel Islands are a new county featuring the baronies of Saint Martin (Jersey), Saint Peter Port (Guernsey), Alderney and Sark. They are de Jure part of the Duchy of Normandy. The name of the county and baronies change to their French or Norman versions under French or Norman rule. Historically, the islands remain tied to the English Crown after 1204, when continental Normandy was annexed by the Kingdom of France.
+The Channel Islands are a new county featuring the baronies of Jersey, Guernsey, Alderney and Sark. They are de Jure part of the Duchy of Normandy. The name of the county changes to its French or Norman version under French or Norman rule, while the four islands keep their names regardless of who rules them. Historically, the islands remain tied to the English Crown after 1204, when continental Normandy was annexed by the Kingdom of France.
 
 This is an unofficial continuation ("fork") of the original Channel Islands mod by Indyclone77, updated to remain compatible with current versions of Crusader Kings III.
 
 Source code (open source): https://github.com/agrimpard/ck3-channel-islands
 
 === Changelog ===
+
+v1.2
+- Jersey and Guernsey now always display their island names instead of their main town's name (Saint Martin / Saint Peter Port), matching Alderney and Sark, regardless of who rules them (the previous French/Norman cultural names for these two baronies have been removed).
+- Added individual coats of arms for all four baronies, based on their real historical/current arms: Jersey and Sark (three and two gold leopards on red, respectively), Guernsey (three gold leopards on red with a holly sprig), and Alderney (a gold rampant lion on red).
 
 v1.1
 - Fixed all four islands' armies, buildings and coat of arms rendering at the wrong location on the map (near Pamplona, Spain) instead of the Channel Islands themselves. The map object locator files (building, combat, player stack, siege, special building, stack, and other stack locators) had incorrect 3D coordinates left over from an early, unvalidated pass; they now all use positions confirmed correct by the game engine.
