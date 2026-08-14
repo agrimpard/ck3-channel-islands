@@ -1,12 +1,14 @@
 # Channel Islands Continued
 
-![Channel Islands Continued thumbnail](thumbnail.png)
+<img src="thumbnail.png" alt="Channel Islands Continued thumbnail" width="256">
 
-A Crusader Kings III mod that adds the Channel Islands — Jersey, Guernsey, Alderney and Sark — as a playable county, de jure part of the Duchy of Normandy.
+
+A Crusader Kings III mod that adds the Channel Islands (Jersey, Guernsey, Alderney and Sark) as a playable county, de jure part of the Duchy of Normandy.
 
 This is an unofficial continuation ("fork") of the original [Channel Islands](https://steamcommunity.com/sharedfiles/filedetails/?id=2222503799) mod by **Indyclone77**. The original mod's files were tied to CK3 1.9 and no longer worked on current game versions; this fork rebuilds the county against up-to-date vanilla files and expands it.
 
 **Workshop page:** https://steamcommunity.com/sharedfiles/filedetails/?id=3783006059
+
 **Source code (open source):** https://github.com/agrimpard/ck3-channel-islands
 
 ## What's in the county
@@ -27,10 +29,10 @@ County and barony names switch between their French and Norman/Anglo-Norman form
 ## Changelog
 
 ### v1.0
-- Full rebuild against current-version vanilla files (landed titles, province history, title history, map definition, `default.map`, province terrain, map object locators) to fix crashes and restore compatibility — the original mod's files were still based on CK3 1.9.
+- Full rebuild against current-version vanilla files (landed titles, province history, title history, map definition, `default.map`, province terrain, map object locators) to fix crashes and restore compatibility (the original mod's files were still based on CK3 1.9).
 - Fixed a pre-existing bug where the Saint Peter Port province was split into disconnected pixel fragments on the province map.
 - Added French localization (the original mod only shipped English strings).
-- Added Alderney and Sark as two new baronies of the Channel Islands county — reusing what turned out to be two mis-painted, disconnected fragments of the Guernsey province in the original map art, now split off into their own provinces at the geographically correct spots.
+- Added Alderney and Sark as two new baronies of the Channel Islands county reusing what turned out to be two mis-painted, disconnected fragments of the Guernsey province in the original map art, now split off into their own provinces at the geographically correct spots.
 - Rebuilt the county's title history end to end (see "Historical setup" above).
 
 ## Repository layout
