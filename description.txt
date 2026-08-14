@@ -8,6 +8,10 @@ Source code (open source): https://github.com/agrimpard/ck3-channel-islands
 
 === Changelog ===
 
+v1.1
+- Fixed all four islands' armies, buildings and coat of arms rendering at the wrong location on the map (near Pamplona, Spain) instead of the Channel Islands themselves. The map object locator files (building, combat, player stack, siege, special building, stack, and other stack locators) had incorrect 3D coordinates left over from an early, unvalidated pass; they now all use positions confirmed correct by the game engine.
+- Added an explicit capital (Saint Peter Port) to the Channel Islands county.
+
 v1.0
 - Full rebuild against current-version vanilla files (landed titles, province history, title history, map definition, default.map, province terrain, map object locators).
 - Added French localization (the original mod only shipped English strings).

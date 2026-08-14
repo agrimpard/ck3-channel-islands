@@ -28,6 +28,10 @@ County and barony names switch between their French and Norman/Anglo-Norman form
 
 ## Changelog
 
+### v1.1
+- Fixed all four islands' armies, buildings and coat of arms rendering at the wrong location on the map (near Pamplona, Spain) instead of the Channel Islands themselves. Five of the seven map object locator files (building, combat, player stack, siege, special building locators) had incorrect 3D coordinates left over from an early, unvalidated pass; they, along with the newly added stack and other stack locators, now all use positions confirmed correct by the game engine.
+- Added an explicit capital (Saint Peter Port) to the Channel Islands county.
+
 ### v1.0
 - Full rebuild against current-version vanilla files (landed titles, province history, title history, map definition, `default.map`, province terrain, map object locators) to fix crashes and restore compatibility (the original mod's files were still based on CK3 1.9).
 - Fixed a pre-existing bug where the Saint Peter Port province was split into disconnected pixel fragments on the province map.

@@ -43529,6 +43529,8 @@ e_france = {
 			c_channel_islands = {
 				color = { 12 12 160 }
 
+				capital = b_saint_peter_port
+
 				cultural_names = {
 					name_list_french = cn_channel_islands_fr
 					name_list_norman = cn_channel_islands_nm
